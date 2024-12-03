@@ -341,6 +341,43 @@ a{
 
 /* Project Section CSS End */
 
+/* Counter Area CSS Start */
+.counter-area{
+    background-color: #333333;
+}
+.counter-area .section-title h2{
+color: #fff;
+}
+.counter-area .section-title p{
+color: #fff;
+}
+
+
+.single-counter {
+    color: #fff;
+    text-align: center;
+  }
+  .single-counter i {
+    font-size: 24px;
+    background-color: #ff3636;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  .single-counter h4 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .single-counter p {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+/* Counter Area CSS End */
+
 
 
 
