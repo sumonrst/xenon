@@ -117,6 +117,9 @@ a{
     right: 0;
     padding: 20px 0;
   }
+  .sticky {
+    background-color: #333333c9;
+  }
   .header-area .navbar-brand {
     font-size: 28px !important;
     border: 1px solid #fff;
@@ -713,10 +716,115 @@ color: #fff;
   margin-bottom: 12px;
   border: 1px solid #ff3636;
 }
-.contact-form input[type=text]:focus {
-  border: 1px solid #ff3636 !important;
+.contact-form textarea{
+  height:94px;
 }
+.contact-form input:focus {
+	outline: none;
+}
+.contact-form textarea:focus {
+	outline: none;
+}
+
+/* Contact Address Section start */
+
+.contact-address ul {
+  list-style: none;
+}
+.contact-icon {
+  font-size: 17px;
+  color: #ff3636;
+  position: relative;
+  z-index: 99;
+  margin-right: 45px;
+}
+.contact-address ul li h2 {
+  font-size: 23px;
+  font-weight: 700;
+}
+.contact-address ul li h2 span {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+}
+.contact-address ul li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #ddd;
+  margin-bottom: 19px;
+}
+.contact-icon:before {
+  position: absolute;
+  content: "";
+  background-color: #ff3636;
+  width: 40px;
+  height: 40px;
+  z-index: -1;
+  top: -8px;
+  left: -12px;
+  text-align: center;
+  transform: rotate(46deg);
+}
+.contact-icon i {
+  z-index: 5;
+  color: #fff;
+}
+.contact-address ul li:last-child {
+  border-bottom: 0;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #ff3636;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: .3s;
+  border: 0;
+}
+.contact-form input[type="submit"]:hover {
+  background-color: #333;
+  border: 0;
+  transition: .3s;
+}
+/* Contact Address Section end */
+
 /* Contact Section CSS End */
+
+
+/* Footer Section Start */
+.footer-area {
+	background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+
+.footer-area h2 {
+  font-size: 50px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.footer-area a i {
+  color: #fff;
+  font-size: 19px;
+  transition: .3s;
+}
+.footer-area a {
+  margin-right: 48px;
+}
+.footer-area a i:hover {
+  color: #ff3636;
+  transition: .3s;
+}
+.footer-area p {
+  padding-top: 30px;
+  border-top: 1px solid #fff;
+  margin-top: 32px;
+  text-transform: capitalize;
+}
+/* Footer Section End */
 
 
 
