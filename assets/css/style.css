@@ -119,6 +119,7 @@ a{
   }
   .sticky {
     background-color: #333333c9;
+    transition: 1s ease;
   }
   .header-area .navbar-brand {
     font-size: 28px !important;
