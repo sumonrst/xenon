@@ -57,6 +57,7 @@ a{
   }
   .btn-box:hover{
     background-color: #333;
+    color: #fff;
   }
   .btn-box i {
     top: 14px;
@@ -502,6 +503,124 @@ color: #fff;
 /* Testimonial Dots CSS End */
 
 /* Testimonial CSS End */
+
+
+
+/* Pricing Section CSS Start */
+
+.pricing-area {
+  background-color: #F6F6F6;
+}
+.single-pricing {
+  background-color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+.single-pricing ul {
+  /*! margin: 0; */
+  padding: 0;
+  list-style: none;
+}
+.single-pricing h5 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.single-pricing h2 {
+  font-size: 49px;
+  font-weight: 800;
+  margin: 18px 0;
+}
+.single-pricing ul li {
+  border-bottom: 1px dashed #ddd;
+  padding: 12px 0;
+}
+.single-pricing ul li:last-child {
+  border-bottom: 0;
+}
+/* Pricing Section CSS End */
+
+
+/* Team Section CSS Start */
+
+.single-team img {
+  width: 100%;
+}
+.single-team {
+  position: relative;
+  overflow: hidden;
+}
+.team-content {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 17px 0;
+  position: absolute;
+  bottom: -112px;
+  width: 100%;
+  transition: 1s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+.team-content h5 {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.team-content p {
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.team-social {
+	background-color: #333;
+	position: absolute;
+	width: 100%;
+	color: #fff;
+	font-size: 20px;
+	top: -70px;
+	padding: 23px 0;
+  text-align: center;
+  transition: 1s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+.team-social ul {
+  margin-bottom: 0;
+}
+.team-social ul a{
+  color: #fff;
+}
+
+.team-social ul a i {
+  font-size: 15px;
+}
+.team-social ul a i:hover {
+  color: #ff3636;
+  transition: .3s;
+}
+.team-social ul a {
+  margin-right: 17px;
+}
+.single-team:hover .team-social {
+	top: 0;
+	transition: 1s ease;
+}
+.single-team:hover .team-social {
+  top: 0;
+  transition: 1s ease;
+  opacity: 1;
+  visibility: visible;
+}
+.single-team:hover .team-content {
+  bottom: 0;
+  transition: 1s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+/* Team Section CSS End */
 
 
 
