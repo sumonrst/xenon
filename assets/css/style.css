@@ -622,6 +622,102 @@ color: #fff;
 
 /* Team Section CSS End */
 
+/* Blog Section CSS Start */
+
+.single-blog {
+  background-color: #fff;
+}
+.blog-area {
+  background-color: #F6F6F6;
+}
+.blog-content {
+  padding: 22px;
+}
+.blog-content h2 {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.metabox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 17px 0;
+}
+.single-item a {
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+.single-item i {
+  color: #ff3636;
+  font-size: 18px;
+}
+.single-item span {
+	margin-left: 10px;
+}
+
+.blog-image img {
+  transition: 1s ease;
+}
+.single-blog:hover .blog-image img {
+  transform: scale(1.1) rotate(5deg);
+  transition: 1s ease;
+}
+.blog-image {
+	overflow: hidden;
+}
+/* Blog Section CSS End */
+
+/* CTA Section CSS Start */
+
+.cta-area {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index:2;
+}
+.cta-area::before {
+	position: absolute;
+	content: "";
+	background-color: #333;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.85;
+	z-index: -1;
+}
+.cta-content {
+  text-align: center;
+  color: #fff;
+}
+.cta-content h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.cta-content p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.cta-content .btn-box {
+	margin-top: 30px;
+}
+/* CTA Section CSS End */
+
+/* Contact Section CSS Start */
+.contact-form input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ff3636;
+}
+.contact-form input[type=text]:focus {
+  border: 1px solid #ff3636 !important;
+}
+/* Contact Section CSS End */
+
 
 
 
