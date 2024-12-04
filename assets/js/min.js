@@ -7,8 +7,15 @@ $(document).ready(function() {
         },
     });
 
+    /*  counter area */ 
     $('.counter').counterUp({
         delay: 10,
         time: 1000
+    });
+
+    /* Testimonial area */ 
+    $('.testimonial').slick({
+        arrows: false,
+        dots: true,
     });
 });

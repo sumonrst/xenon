@@ -440,6 +440,69 @@ color: #fff;
 }
 /* Timeline CSS End */
 
+/* Testimonial CSS Star */
+.testimonilas-area{
+  background-color: #333333;
+}
+.testimonilas-area .section-title h2{
+  color: #fff;
+}
+.testimonilas-area .section-title p{
+  color: #fff;
+}
+.single-testimonial {
+	color: #fff;
+	text-align: center;
+}
+.single-testimonial img {
+	border: 1px dashed #ddd;
+	border-radius: 50%;
+	padding: 3px;
+	margin: 0 auto;
+}
+.testimonial h2 {
+	font-size: 25px;
+	text-transform: capitalize;
+  margin-bottom: 31px;
+}
+.single-testimonial p {
+	margin-top: 20px;
+}
+.single-testimonial h2 span {
+	display: block;
+	font-size: 14px;
+	margin-top: 12px;
+	font-style: italic;
+}
+
+/* Testimonial Dots CSS Start */
+
+.slick-dots {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+  border: ;
+}
+.slick-dots li button {
+  border: 0;
+  background-color: #ff3636;
+  width: 20px;
+  border-radius: 50%;
+  height: 20px;
+  text-indent: -9999px;
+}
+.testimonilas-area .slick-dots li.slick-active button {
+	background-color: #fff !important;
+}
+/* Testimonial Dots CSS End */
+
+/* Testimonial CSS End */
+
 
 
 
