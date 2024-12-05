@@ -852,7 +852,7 @@ color: #fff;
 
 
 
-@media (max-width: 575px) {
+@media (max-width: 575.98px) {
   .banner-area {
     height: 450px;
   }
@@ -862,6 +862,36 @@ color: #fff;
   .banner-content p {
     font-size: 16px;
   }
+  .about-image img{
+    display: none !important;
+  }
+  .about-content{
+    text-align: center !important;
+  }
+
+  /* Blog CSS Start*/
+  .single-blog {
+    margin-bottom: 20px;
+  }
+  /* Blog CSS End*/
+
+  /* Peicing CSS Start */
+  .single-pricing {
+    margin-bottom: 20px;
+  }
+  /* Peicing CSS End */
+
+  /* Team CSS Start */
+  .single-team {
+    margin-bottom: 20px;
+  }
+  /* Team CSS End */
+
+/* Contact CSS Start */
+.contact-address {
+	margin-top: 40px;
+}
+/* Contact CSS End */
 
 
 }
