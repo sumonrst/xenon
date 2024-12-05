@@ -1,0 +1,10 @@
+
+
+
+@media (min-width: 720px) and (max-width: 768px) {
+  
+    .about-image{
+        display: none !important;
+    }
+    
+  }
