@@ -25,9 +25,9 @@ $(document).ready(function() {
 
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 200) {
-        $(".navbar").addClass("sticky");
+        $(".header-area").addClass("sticky");
     } else {
         //remove the background property so it comes transparent again (defined in your css)
-       $(".navbar").removeClass("sticky");
+       $(".header-area").removeClass("sticky");
     }
 });

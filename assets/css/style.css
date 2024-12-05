@@ -116,10 +116,18 @@ a{
     left: 0;
     right: 0;
     padding: 20px 0;
-  }
-  .sticky {
-    background-color: #333333c9;
     transition: 1s ease;
+  }
+  .header-area.sticky {
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 15px 10px -15px #111;
+    transition: 1s ease;
+  }
+  .header-area.sticky a {
+    color: #333 !important;
   }
   .header-area .navbar-brand {
     font-size: 28px !important;
